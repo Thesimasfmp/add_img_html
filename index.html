@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - EAD - Inserção de imagem</title>   
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        div.quadrado {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            margin: 1px;
+        }
+        div#img01{
+            background-image: url(imagens/foto_01.jpg);
+        }
+        div#img02{
+            background-image: url(imagens/gustavo_guanabara.png);
+        }
+        div#img03{
+            background-image: url(imagens/foto_02.jpg); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira Aula EAD</h1>
+    <p>Exercício de HTML com Imagem</p>
+    
+    <div class="quadrado" id="img01">  
+    </div>
+
+    <div class="quadrado" id="img02">
+    </div>
+    <div class="quadrado" id="img03">
+    </div>
+    <p>Adicionei as imagens dentro da div, usando "background-image: url"</p>
+</body>
+</html>
